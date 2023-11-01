@@ -1,0 +1,348 @@
+@media only screen and (max-width: 768px) {
+  html{
+    background: #F9F6EE;
+  }
+  body{
+    margin: 0px;
+  }
+  header{
+    position: fixed;
+    display: flex;
+      flex-direction: row;
+    top: 0;
+    height: 10%;
+    width: 100%;
+    background-color: #767676;
+  }
+  #logo{
+    height:10vh;
+    width:100%;
+  }
+  nav{
+    width: 90%;
+    text-align: right;
+    margin-top: 1%;
+  }
+  #herre{
+    font-family: 'Edu TAS Beginner', cursive;
+    margin: 2vh;
+    color: white;
+    font-size: 20px;
+    background: none;
+    border: none;
+  }
+  #herre:hover{
+    color:#c6c6c6;
+  }
+  #dame{
+    font-family: 'Edu TAS Beginner', cursive;
+    margin: 2vh;
+    color:white;
+    font-size: 20px;
+    background: none;
+    border: none;
+  }
+  #dame:hover{
+    color:#c6c6c6;
+  }
+  .nyhet{
+    font-family: 'Edu TAS Beginner', cursive;
+    text-align: center;
+    font-size: 25px;
+  }
+  #velkomst{
+    margin-top: 14%;
+  }
+  #flex_body{
+    display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+  }
+  #produkt_1{
+    text-align: center;
+    margin: 2%;
+  }
+  #produkt_2{
+    text-align: center;
+    margin: 2%;
+  }
+  #alessandro_loafer{
+    width: 40vw;
+  }
+  #vagabond{
+    width: 40vw;
+  }
+  #nike{
+    width: 92vw;
+  }
+  .txt{
+    font-family: 'Quicksand', sans-serif;
+    margin: 1%;
+  }
+  #handlekurv{
+    font-family: 'Edu TAS Beginner', cursive;
+    font-size: 24px;
+    height: 30vw/2;
+    width: 30vw;
+    margin-left: 2%;
+    margin-top: auto;
+    background-color: #005A01;
+    border: none;
+    color: white;
+  }
+  #handlekurv:hover{
+    background-color: #007E02;
+  }
+  #produkt_3{
+    text-align: center;
+    margin: 2%;
+  }
+  #alessandro_loafer-sesongkolleksjon{
+    width: 70vw;
+  }
+  #vagabond-sesongkolleksjon{
+    width: 70vw;
+  }
+  #nike-sesongkolleksjon{
+    width: 70vw;
+  }
+  #zign-sesongkolleksjon{
+    width: 70vw;
+  }
+  #alessandro_loafer-produkt{
+    margin-top: 18%;
+    margin-left: 2vw;
+    width: 95%;
+    height: auto;
+  }
+  #navn{
+    font-size: 36px;
+  }
+  .txt-produkt{
+    font-family: 'Edu TAS Beginner', cursive;
+    font-size: 24px;
+  }
+  #info{
+    margin-right: auto;
+    margin-left: 1%;
+  }
+  #handlekurv{
+    font-family: 'Edu TAS Beginner', cursive;
+    font-size: 24px;
+    height: 30vw/2;
+    width: 30vw;
+    margin-left: 2%;
+    margin-top: auto;
+    background-color: #005A01;
+    border: none;
+    color: white;
+  }
+  #handlekurv:hover{
+    background-color: #007E02;
+  }
+  #vinterkolleksjon{
+    position: relative;
+    text-align: center;
+    margin: 2%;
+    z-index: 1;
+  }
+  #knapp_txt{
+    position: absolute;
+    font-family: 'Edu TAS Beginner', cursive;
+    left: 25%;
+    transform: translate(0, 260%);
+    font-size: 25px;
+    color: white;
+  }
+  #vinterkolleksjon:hover #knapp_txt{
+    color:#767676;
+  }
+  #vintersko{
+    position: relative;
+    width: 96%;
+    filter: grayscale(80%);
+    z-index: -1;
+  }
+  footer{
+    margin-top: 2%;
+    width:100%;
+    height: 8vh;
+    background: #767676;
+  }
+  #kontakt{
+    position: relative;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    font-weight: bold;
+    padding-left: 25%;
+    top:3vh;
+    text-decoration: none;
+  }
+}
+@media only screen and (min-width: 769px) {
+  html{
+    background: #F9F6EE;
+  }
+  body{
+    margin: 0px;
+  }
+  header{
+    position: fixed;
+    display: flex;
+      flex-direction: row;
+    top: 0;
+    height: 10%;
+    width: 100%;
+    background-color: #767676;
+    z-index: 2;
+  }
+  #logo{
+    height:10vh;
+    width:100%;
+  }
+  nav{
+    width: 90%;
+    text-align: right;
+    margin-top: 1%;
+  }
+  #herre{
+    font-family: 'Edu TAS Beginner', cursive;
+    margin: 1vh;
+    color: white;
+    font-size: 25px;
+    background: none;
+    border: none;
+  }
+  #herre:hover{
+    color:#c6c6c6;
+  }
+  #dame{
+    font-family: 'Edu TAS Beginner', cursive;
+    margin: 1vh;
+    color:white;
+    font-size: 25px;
+    background: none;
+    border: none;
+  }
+  #dame:hover{
+    color:#c6c6c6;
+  }
+  .nyhet{
+    font-family: 'Edu TAS Beginner', cursive;
+    text-align: center;
+    font-size: 35px;
+  }
+  #velkomst{
+    margin-top: 5%;
+  }
+  #produkt_1{
+    text-align: center;
+    margin: 2%;
+  }
+  #produkt_2{
+    text-align: center;
+    margin: 2%;
+  }
+  #alessandro_loafer{
+    width: 40vw;
+  }
+  #vagabond{
+    width: 40vw;
+  }
+  .txt{
+    font-family: 'Quicksand', sans-serif;
+    margin: 1%;
+  }
+  #alessandro_loafer-sesongkolleksjon{
+    width: 40vw;
+  }
+  #vagabond-sesongkolleksjon{
+    width: 40vw;
+  }
+  #nike-sesongkolleksjon{
+    width: 40vw;
+  }
+  #zign-sesongkolleksjon{
+    width: 40vw;
+  }
+  #flex_body-produkt{
+    display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    margin-top: 7%;
+    margin-left: 2%;
+  }
+  .txt-produkt{
+    font-family: 'Edu TAS Beginner', cursive;
+    font-size: 24px;
+  }
+  #info{
+    margin-right: auto;
+    margin-left: 1%;
+  }
+  #navn{
+    font-size: 36px;
+  }
+  #spesifikasjoner{
+    margin-top: 75%;
+  }
+  #handlekurv{
+    font-family: 'Edu TAS Beginner', cursive;
+    font-size: 24px;
+    height: 15vh;
+    width: 15vw;
+    margin-right: 2%;
+    margin-top: auto;
+    background-color: #005A01;
+    border: none;
+    color: white;
+  }
+  #handlekurv:hover{
+    background-color: #007E02;
+  }
+  #produkt_3{
+    text-align: center;
+    margin: 2%;
+  }
+  #nike{
+    width: 40vw;
+  }
+  #vinterkolleksjon{
+    position: relative;
+    text-align: center;
+    margin: 2%;
+    z-index: 1;
+  }
+  #knapp_txt{
+    position: absolute;
+    font-family: 'Edu TAS Beginner', cursive;
+    left: 28%;
+    transform: translate(0, 320%);
+    font-size: 75px;
+    color: white;
+  }
+  #vinterkolleksjon:hover #knapp_txt{
+    color:#767676;
+  }
+  #vintersko{
+    position: relative;
+    width: 96%;
+    filter: grayscale(80%);
+    z-index: -1;
+  }
+  footer{
+    margin-top: 2%;
+    width:100%;
+    height: 10vh;
+    background: #767676;
+  }
+  #kontakt{
+    position: relative;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    font-weight: bold;
+    padding-left: 45%;
+    top:4vh;
+    text-decoration: none;
+  }
+}
